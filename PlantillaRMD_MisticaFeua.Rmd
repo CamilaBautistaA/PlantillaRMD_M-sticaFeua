@@ -29,8 +29,8 @@ pre.r {
 pre:not(.r):not(.text) {
     background-color: var(--code-bg) !important;
     color: var(--text-color) !important;
-    border-left: 5px solid #ff00ff !important; 
-    box-shadow: -3px 0px 8px rgba(255, 0, 255, 0.2); 
+    border-left: 5px solid #29B160 !important; 
+    box-shadow: -3px 0px 8px rgba(0, 255, 0, 0.2); 
     margin-bottom: 20px;
 }
 
@@ -38,8 +38,8 @@ pre:not(.r):not(.text) {
 pre.text {
     background-color: var(--code-bg) !important;
     color: var(--text-color) !important;
-    border-left: 5px solid #00ff00 !important; 
-    box-shadow: -3px 0px 8px rgba(0, 255, 0, 0.2);
+    border-left: 5px solid #4eb1f1 !important; 
+    box-shadow: -3px 0px 8px rgba(78, 177, 241, 0.3);
     font-style: italic;
     margin-bottom: 20px;
 }
@@ -52,14 +52,6 @@ body.light-mode pre {
     background-color: #9c9c9c !important; /* Gris claro personalizado */
 }
 
-/* Bordes más suaves para el modo claro */
-body.light-mode pre:not(.r):not(.text) {
-    border-left: 5px solid #d400d4 !important; /* Rosado más oscuro */
-}
-
-body.light-mode pre.text {
-    border-left: 5px solid #00b300 !important; /* Verde más oscuro */
-}
 ```
 
 <style type="text/css"> .main-container { max-width: 100% !important; margin-left: auto; margin-right: auto; } </style>
@@ -79,11 +71,11 @@ Integrante 3 - Código
 
 # **0. Introducción:** 👋
 
-2 opciones de bloque
+**2 opciones de bloque**
 
-1. Para texto (franja verde)
+1. Para texto (franja celeste)
 
-2. Para código (franja rosada, se genera automáticamente mostrando resultado del código)
+2. Para código (franja verde, se genera automáticamente mostrando resultado del código)
 
 # **1. Título 1**
 
@@ -107,6 +99,6 @@ Detalles de la Plantilla:
 
 Nombre: Mística_Feua
 
-Creado por: Kamala
+Creado por: [Kamala](https://github.com/CamilaBautistaA)
 
-Github: @CamilaBautistaA
+Github: https://github.com/CamilaBautistaA/PlantillaRMD_MisticaFeua
