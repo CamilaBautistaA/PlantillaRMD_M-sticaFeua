@@ -1,0 +1,104 @@
+---
+title: "<center> **Título del Proyecto.** </center>"
+subtitle: "<center> **Subtítulo del Proyecto** </center>"
+author: Grupo N°
+date: "`r Sys.Date()`"
+output:
+  rmdformats::downcute:
+    self_contained: true
+    default_style: "dark"
+    downcute_theme: "chaos"
+    thumbnails: true
+    lightbox: true
+    gallery: false
+    highlight: tango
+    code_folding: show
+    code_download: true
+lang: "es-ES"
+---
+
+```{css, echo=FALSE}
+/* 1. BLOQUE DE CÓDIGO (EL QUE TIENE EL {r}) */
+pre.r {
+    background-color: var(--code-bg) !important;
+    color: var(--text-color) !important;
+    border: 1px solid rgba(128, 128, 128, 0.2); /* Un borde sutil para que no flote */
+}
+
+/* 2. CORRIDAS DE CÓDIGO (OUTPUTS DE R) - BORDE ROSADO */
+pre:not(.r):not(.text) {
+    background-color: var(--code-bg) !important;
+    color: var(--text-color) !important;
+    border-left: 5px solid #ff00ff !important; 
+    box-shadow: -3px 0px 8px rgba(255, 0, 255, 0.2); 
+    margin-bottom: 20px;
+}
+
+/* 3. BLOQUES DE TEXTO MANUAL - BORDE VERDE */
+pre.text {
+    background-color: var(--code-bg) !important;
+    color: var(--text-color) !important;
+    border-left: 5px solid #00ff00 !important; 
+    box-shadow: -3px 0px 8px rgba(0, 255, 0, 0.2);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Asegurar que el texto interno siempre herede el color correcto */
+pre code {
+    color: inherit !important;
+}
+body.light-mode pre {
+    background-color: #9c9c9c !important; /* Gris claro personalizado */
+}
+
+```
+
+<style type="text/css"> .main-container { max-width: 100% !important; margin-left: auto; margin-right: auto; } </style>
+
+<div style="text-align: center;"> <img src="https://www.lamolina.edu.pe/portada/html/acerca/escudos/download/color/1193x1355_ESCUDOCOLOR.png" width="180px">
+
+
+**Integrantes:**
+
+Integrante 1 - Código
+
+Integrante 2 - Código
+
+Integrante 3 - Código
+
+</div>
+
+# **0. Introducción:** 👋
+
+2 opciones de bloque
+
+1. Para texto (franja verde)
+
+2. Para código (franja rosada, se genera automáticamente mostrando resultado del código)
+
+# **1. Título 1**
+
+```text
+¿Cómo genero este bloque de texto?
+
+1. Presiona Ctlr+alt+i, te aparecerá un bloque de código para r
+2. Modifica el {r} y reemplazalo por la palabra text
+```
+
+# **2. Título 2**
+
+```{r}
+#Bloque para códigos
+summary(cars)
+```
+
+# **3. Título 3:**
+
+Detalles de la Plantilla:
+
+Nombre: Mística_Feua
+
+Creado por: Kamala
+
+Github: @CamilaBautistaA
