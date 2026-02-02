@@ -13,6 +13,9 @@ Para usar esta plantilla necesitas tener instalado el paquete:
 ```r
 install.packages("rmdformats")
 ```
-<img width="1347" height="691" alt="Portada Plantilla Mística FEUA" src="https://github.com/user-attachments/assets/60ac390a-cab1-4398-a3a8-b384719afaed" />
 
-<img width="1349" height="692" alt="Portada Plantilla Mística FEUA 2" src="https://github.com/user-attachments/assets/420741f2-7779-44b8-ab4a-83ea3a083cd8" />
+<img width="1118" height="634" alt="Portada Plantilla Mística FEUA" src="https://github.com/user-attachments/assets/c5d82c11-e78b-4f77-b14a-0b526cccea37" />
+
+<img width="979" height="630" alt="Portada Plantilla Mística FEUA 2" src="https://github.com/user-attachments/assets/d175b073-c9d4-4256-a425-7a73ce02314e" />
+
+Vista previa completa: [Aquí](https://camilabautistaa.github.io/PlantillaRMD_MisticaFeua/)
