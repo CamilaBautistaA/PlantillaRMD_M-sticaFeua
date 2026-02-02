@@ -4,7 +4,8 @@ Plantilla avanzada de **RMarkdown** basada en el tema `downcute` con una interfa
 
 ## ✨ Características Visuales
 * **Modo Adaptativo:** Colores optimizados para lectura diurna y nocturna mediante CSS inyectado.
-* **Bloques Estilizados:** * 🟢 **Verde Neón:** Para bloques de código R (ejecución y lógica).
+* **Bloques Estilizados:**
+  * 🟢 **Verde Neón:** Para bloques de código R (ejecución y lógica).
   * 🔹 **Celeste Institucional:** Para bloques de texto y anotaciones técnicas (`#4eb1f1`).
 
 ## 🚀 Requisitos
